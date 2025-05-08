@@ -1,0 +1,17 @@
+*{box-sizing: border-box;}
+@media screen and (max-width:992) {
+
+    .menu1{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:530px){
+
+    .text1{
+        width: 100%;
+    }
+    .image3{
+        width: 400px;
+    }
+}
