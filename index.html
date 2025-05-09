@@ -12,20 +12,24 @@
 
 <body>
     <!-- navbar -->
-    <div class="w-100 d-flex justify-content-between px-2 align-items-center pt-2"
-        style="height: 60px;background-color: rgba(128, 128, 128, 0.071); position: fixed;top: 0;">
-
-        <div>
-            <h3 class="fs-5 fw-bold">JUICY KONDOTTY</h3>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary " style="background-color: #f7f7f7;position:sticky;top: 0px;">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#">JUICY KONDOTTY</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#">Gallery</a>
+                    <a class="nav-link active" aria-current="page" href="#">Menu</a>
+                    <a class="nav-link active" aria-current="page" href="#">Time</a>
+                    <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                </div>
+            </div>
         </div>
-        <div class="d-flex gap-4 fw-bold pe-5">
-            <p>Home</p>
-            <p> gallery</p>
-            <p> menu</p>
-            <p> time</p>
-            <p>Contact</p>
-        </div>
-    </div>
+    </nav>
 
     <!-- first section -->
 
@@ -35,7 +39,7 @@
         <div class="image1 w-50 d-flex justify-content-center">
             <img class="rounded-circle"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMyHwA5WiS80XGHYwcsZ4FJ8rQ6bhxFMir4gtYFBHdHATzvRaja_Yo86iNItM-doAVYgU&usqp=CAU"
-                alt="" >
+                alt="">
         </div>
         <div class="text1 pt-5 pt-md-0 pt-lg-0   pe-lg-5 pe-md-5 d-flex  flex-column" style="width: 50%;">
             <h2>Food Made With Love</h2><br>
@@ -101,7 +105,7 @@
                         src="http://img.freepik.com/free-photo/front-view-chocolate-dessert-glass-with-straw_23-2148603311.jpg?w=360&t=st=1702372657~exp=1702373257~hmac=44886dc67a99455da13e4668cf45bb547361e87aab6040e7112cb881e87d0707"
                         alt="" style="width: 100%;height: 450px;">
                 </div>
-                <div class="col-lg-4 col-12 col-md-6  rounded-3" >
+                <div class="col-lg-4 col-12 col-md-6  rounded-3">
                     <img class="rounded-3"
                         src="https://img.freepik.com/free-photo/cold-coffee-frappe-with-cream_140725-9503.jpg?w=360&t=st=1702372677~exp=1702373277~hmac=053068dd52df59750dd968c60a569af9a67bebd8250830eebfe66c21b50501ab"
                         alt="" style="width: 100%;height: 450px;">
@@ -249,34 +253,32 @@
             <h2 class="text-center">Juicy Timing</h2>
         </div>
 
-        <div class="main4 w-100 container d-flex flex-column flex-lg-row align-items-center justify-content-center pt-2" style="height: 450px;">
-            <div class="image4 w-50 h-100 rounded-5 d-flex align-items-center justify-content-center mx-3"
-                style="box-shadow: 2px 5px 5px black;background-image: url(https://www.alphafoodie.com/wp-content/uploads/2021/11/Apple-Juice-Square.jpeg);background-size: cover;">
-                <h1 class=" text-light text-center">JUICY DAY <br> HAPPY DAY</h1>
-            </div>
-            <div class="image3 rounded-5 w-50 h-100" style="box-shadow: 2px 5px 5px black;">
-                <div class="">
-                    <h1 class="text-center">Opening Hours </h1><br>
-                    <div class="mt-4">
-                        <p class="text-center fw-bold" style="word-spacing: 80px;">sunday 11am<span
-                                style="color: red;">to</span>10pm</p>
-                        <p class="text-center fw-bold" style="word-spacing: 74px;">monday 11am<span
-                                style="color: red;">to</span>10pm</p>
-                        <p class="text-center fw-bold" style="word-spacing: 76px;">tuesday 11am<span
-                                style="color: red;">to</span>10pm</p>
-                        <p class="text-center fw-bold" style="word-spacing: 52px;">wednesday 11am<span
-                                style="color: red;">to</span>10pm</p>
-                        <p class="text-center fw-bold" style="word-spacing: 70px;">thursday 11am<span
-                                style="color: red;">to</span>10pm</p>
-                        <p class="text-center fw-bold" style="word-spacing: 90px;">friday 11am<span
-                                style="color: red;">to</span>10pm</p>
-                        <p class="text-center fw-bold" style="word-spacing: 70px;">saturday 11am<span
-                                style="color: red;">to</span>10pm</p>
+        <div class="container py-4">
+            <div class="row g-4 align-items-center">
+                <!-- Image Section -->
+                <div class="col-12 col-lg-6">
+                    <div class="rounded-5 d-flex align-items-center justify-content-center text-center text-light p-5"
+                        style="height: 100%; min-height: 400px; background-image: url('https://www.alphafoodie.com/wp-content/uploads/2021/11/Apple-Juice-Square.jpeg'); background-size: cover; background-position: center; box-shadow: 2px 5px 5px black;">
+                        <h1>JUICY DAY <br> HAPPY DAY</h1>
+                    </div>
+                </div>
 
+                <!-- Opening Hours Section -->
+                <div class="col-12 col-lg-6">
+                    <div class="rounded-5 p-4 shadow" style="background-color: #fff;">
+                        <h1 class="text-center mb-4">Opening Hours</h1>
+                        <div class="fw-bold text-center">
+                            <p>Sunday &nbsp;&nbsp;11am <span style="color: red;">to</span> 10pm</p>
+                            <p>Monday &nbsp;&nbsp;11am <span style="color: red;">to</span> 10pm</p>
+                            <p>Tuesday &nbsp;&nbsp;11am <span style="color: red;">to</span> 10pm</p>
+                            <p>Wednesday &nbsp;&nbsp;11am <span style="color: red;">to</span> 10pm</p>
+                            <p>Thursday &nbsp;&nbsp;11am <span style="color: red;">to</span> 10pm</p>
+                            <p>Friday &nbsp;&nbsp;11am <span style="color: red;">to</span> 10pm</p>
+                            <p>Saturday &nbsp;&nbsp;11am <span style="color: red;">to</span> 10pm</p>
+                        </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
     <!-- footer -->
