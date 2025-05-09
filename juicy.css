@@ -5,13 +5,11 @@
         width: 100%;
     }
     
-}
-@media screen and (max-width:530px){
-
-    .text1{
+    .main4{
+        height: 600px;
+    }
+    image4{
         width: 100%;
     }
-    .image3{
-        width: 400px;
-    }
+    
 }
